@@ -1,0 +1,9 @@
+version: 'v2.12.2'
+services:
+  frontend:
+    build: ./frontend
+    container_name: frontend_c
+    ports: 
+      - 5173:5173
+    stdin_open: true
+    tty: true
